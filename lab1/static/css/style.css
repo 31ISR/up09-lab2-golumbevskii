@@ -6,6 +6,7 @@
 body {
     height: 100vh;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -15,4 +16,18 @@ body {
 }
 h1, p{
     text-align: center;
+}
+main {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #81dbb8;
+}
+
+a:hover {
+    opacity: .85;
 }
