@@ -5,3 +5,6 @@ from . import views
 urlpatterns = [
     path('', views.communities_list),
 ]
+urlpatterns = [
+    path('', views.communities_list, name="communities"),
+]
